@@ -325,9 +325,9 @@ contract MINISTARS is ERC20, Ownable {
         buyLiquidityFee = 0;
         buyTotalFees = buyTreasuryFee + buyLiquidityFee + buyRewardsFee;
 
-        sellTreasuryFee = 5;
-        sellLiquidityFee = 2;
-        sellRewardsFee = 2;
+        sellTreasuryFee = 9;
+        sellLiquidityFee = 0;
+        sellRewardsFee = 8;
         sellTotalFees = sellTreasuryFee + sellLiquidityFee + sellRewardsFee;
 
         TreasuryAddress = address(0x8C9eCad9BeE52615479FFCcfE61bD8DE79A5d23C);
